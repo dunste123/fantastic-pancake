@@ -47,7 +47,16 @@ RPC.update(
     small_text="This is a badly cropped logo",
 
     instance=True
-)  # Updates our presence
+)
+
+# RPC.update(
+#     details="Main menu",
+#
+#     large_image="logo",
+#     large_text="Day 30",
+#
+#     instance=True
+# )
 
 while True:  # The presence will stay on as long as the program is running
     time.sleep(15)  # Can only update rich presence every 15 seconds

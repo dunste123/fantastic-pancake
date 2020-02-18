@@ -32,7 +32,9 @@ RPC = Presence(client_id)  # Initialize the Presence client
 
 RPC.connect()  # Start the handshake loop
 
-start_time = time.time()  # The start time in seconds, maybe like the time of the day (epoch second)
+# start_time = time.time()  # The start time in seconds, maybe like the time of the day (epoch second)
+
+start_time = 1582054003  # static start time
 
 RPC.update(
     details="Current Route",
@@ -41,13 +43,28 @@ RPC.update(
     start=start_time,
 
     large_image="hiro",
-    large_text="Day whatever",
+    large_text="Day 30",
 
     small_image="logo",
     small_text="This is a badly cropped logo",
 
     instance=True
 )
+
+# RPC.update(
+#     details="Current Route",
+#     state="Not known yet",
+#
+#     start=start_time,
+#
+#     large_image="campers",
+#     large_text="Day 3",
+#
+#     small_image="logo",
+#     small_text="Highest score: Hiro Akiba",
+#
+#     instance=True
+# )
 
 # RPC.update(
 #     details="Main menu",

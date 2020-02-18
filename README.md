@@ -6,5 +6,9 @@ It programmed in python to serve as an example of the [Camp Buddy][campbuddy] de
 
 All requirements are listed in the `requirements.txt` file
 
+Discord Rich Presence documentation: https://discordapp.com/developers/docs/rich-presence/how-to
+
+Library used: https://qwertyquerty.github.io/pypresence/html/index.html
+
 
 [campbuddy]: https://www.blitsgames.com/
